@@ -1,0 +1,57 @@
+.menu-switch {
+  top: -176px;
+  padding: 60px 60px 147px;
+  background: $white;
+  max-width: 517px;
+  box-shadow: $shadow-lg;
+
+  .btn {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    
+    &:not(.btn_outline-access) {
+      color: $gray-900;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__count {
+    font-family: "Oswald" sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    color: $blue-900;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: $black;
+    border-bottom: 1px dashed #262626;
+    text-decoration: none;
+  }
+}

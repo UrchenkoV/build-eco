@@ -1,0 +1,17 @@
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &__icon {
+    color: $blue-900;
+  }
+
+  &__content {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: $blue-900;
+  }
+}

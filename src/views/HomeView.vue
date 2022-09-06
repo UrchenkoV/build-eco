@@ -1,9 +1,14 @@
-<script setup>
-import TheWelcome from '@/components/TheWelcome.vue'
-</script>
-
 <template>
   <main>
-    <TheWelcome />
+    <HomeMainBlock />
+    <HomeAboutCompany />
+    <HomeStoneUse />
   </main>
 </template>
+
+<script setup>
+import HomeMainBlock from '../components/HomeMainBlock.vue';
+import HomeAboutCompany from '../components/HomeAboutCompany.vue';
+import HomeStoneUse from '../components/HomeStoneUse.vue';
+  
+</script>

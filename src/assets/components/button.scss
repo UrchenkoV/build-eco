@@ -1,0 +1,40 @@
+.btn {
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid transparent;
+  outline: none;
+  background: transparent;
+  padding: 15px 40px;
+  font-size: 16px;
+
+  &:focus {
+    border: 1px solid;
+  }
+
+  &_green {
+    color: $white;
+    background: $green-500;
+  }
+
+  &_lg {
+    font-family: "Open Sans" , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 20px 40px;
+  }
+
+  &_outline {
+    color: inherit;
+    border: 1px solid $black;
+    background: transparent;
+
+    &-access {
+      color: $green-500;
+      border: 1px solid $green-500;
+    }
+  }
+}

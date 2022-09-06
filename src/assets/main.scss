@@ -1,0 +1,85 @@
+@import "./base.css";
+
+@import "./variable";
+
+@import "./components/blocks/main-block.scss";
+@import './components/blocks/about-company.scss';
+@import './components/blocks/stone-use.scss';
+
+@import "./components/arrow-button.scss";
+@import "./components/button.scss";
+@import "./components/header.scss";
+@import "./components/content-info.scss";
+@import "./components/btn-link.scss";
+@import "./components/content-social.scss";
+@import './components/menu-with-switch.scss';
+@import './components/base-heading.scss';
+@import './components/stat-company.scss';
+@import './components/slider-stone.scss';
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  background: $gray-100;
+}
+
+.wrapper-sm,
+.wrapper-md,
+.wrapper-lg {
+  width: 100%;
+  margin: 0 auto;
+}
+.wrapper {
+  &-sm {
+    max-width: 1280px;
+  }
+
+  &-md {
+    max-width: 1340px;
+  }
+
+  &-lg {
+    max-width: 1400px;
+  }
+}
+
+h1,
+.h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 71px;
+  text-transform: uppercase;
+}
+
+h2,
+.h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 53px;
+}
+
+h3,
+.h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}

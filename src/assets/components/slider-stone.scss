@@ -1,0 +1,83 @@
+.slider-stone {
+  overflow: hidden;
+
+  &__inner {
+    display: flex;
+    gap: 30px;
+    width: 105%;
+    left: -40px;
+  }
+
+  &__slide {
+    position: relative;
+    max-width: 320px;
+
+    &:hover {
+      .slider-stone__action {
+        max-height: 100px;
+        height: 100%;
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+
+  &__image {
+    line-height: 0;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        6.56deg,
+        $black -4.75%,
+        rgba(38, 38, 38, 0) 45.24%
+      );
+      z-index: 10;
+    }
+  }
+
+  &__content {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 30px;
+    z-index: 20;
+  }
+
+  &__title {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    color: $white;
+  }
+
+  &__action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s ease;
+  }
+
+  &__link {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: $white;
+    border-bottom: 1px dashed $white;
+  }
+
+  &__icon {
+    color: $white;
+    line-height: 0;
+  }
+}

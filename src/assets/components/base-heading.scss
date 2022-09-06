@@ -1,0 +1,33 @@
+.base-heading {
+  display: flex;
+  gap: 20px;
+  color: $black;
+  text-transform: uppercase;
+
+  &__accent {
+    width: 10px;
+    background: $blue-900;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__over-header {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  &__header {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+  }
+}

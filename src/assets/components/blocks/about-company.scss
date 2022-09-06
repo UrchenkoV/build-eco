@@ -1,0 +1,15 @@
+.about-company {
+  padding: 120px 0 0;
+
+  &__inner {
+    display: flex;
+    gap: 60px;
+  }
+
+  &__stat-wrap {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-row-gap: 15px;
+    margin-top: 40px;
+  }
+}

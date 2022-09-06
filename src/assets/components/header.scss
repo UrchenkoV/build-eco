@@ -1,0 +1,29 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+
+  &__inner-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 25px 30px;
+    background: $white;
+  }
+
+  &__logo {
+    line-height: 0;
+  }
+
+  &__right-wrap {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__hamburger {
+    color: $black;
+  }
+}
