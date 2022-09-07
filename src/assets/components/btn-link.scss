@@ -2,12 +2,25 @@ a {
   color: inherit;
 }
 
-.btn-link {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 19px;
-  color: $blue-900;
-  text-decoration: none;
-  border-bottom: 1px dashed $blue-900;
+.btn {
+  &-link {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: $blue-900;
+    text-decoration: none;
+
+    &-underline {
+      &-dashed {
+        border-bottom: 1px dashed $blue-900;
+      }
+    }
+
+    &-icon {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+  }
 }
