@@ -1,0 +1,33 @@
+.small-architectural-forms {
+  padding: 120px 0 0;
+
+  &__description-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 113px;
+    margin: 60px 0;
+  }
+
+  &__image {
+    line-height: 0;
+  }
+
+  &__content {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+
+  &__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}
