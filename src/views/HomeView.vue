@@ -6,6 +6,7 @@
     <HomeOurSpecialization />
     <HomeSmallArchitecturalForms />
     <HomeCompletedProjects />
+    <HomeOurPartners />
   </main>
 </template>
 
@@ -16,5 +17,6 @@ import HomeStoneUse from '../components/HomeStoneUse.vue';
 import HomeOurSpecialization from '../components/HomeOurSpecialization.vue';
 import HomeSmallArchitecturalForms from '../components/HomeSmallArchitecturalForms.vue';
 import HomeCompletedProjects from '../components/HomeCompletedProjects.vue';
+import HomeOurPartners from '../components/HomeOurPartners.vue';
   
 </script>

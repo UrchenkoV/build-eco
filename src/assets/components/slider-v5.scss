@@ -1,0 +1,10 @@
+.slider-v5 {
+  display: flex;
+  gap: 30px;
+  
+  &__slide {}
+
+  &__preview {
+    line-height: 0;
+  }
+}

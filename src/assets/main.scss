@@ -8,6 +8,7 @@
 @import './components/blocks/our-specialization.scss';
 @import './components/blocks/small-architectural-forms.scss';
 @import './components/blocks/completed-projects.scss';
+@import './components/blocks/our-partners.scss';
 
 @import "./components/arrow-button.scss";
 @import "./components/button.scss";
@@ -18,10 +19,12 @@
 @import './components/menu-with-switch.scss';
 @import './components/base-heading.scss';
 @import './components/stat-company.scss';
+@import './components/product-card.scss';
+
 @import './components/slider-stone.scss';
 @import './components/slider-v3.scss';
-@import './components/product-card.scss';
 @import './components/slider-v4.scss';
+@import './components/slider-v5.scss';
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -49,6 +52,10 @@ body {
 
   &-lg {
     max-width: 1400px;
+  }
+
+  &-full {
+    max-width: 100%;
   }
 }
 
