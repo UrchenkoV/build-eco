@@ -1,0 +1,74 @@
+.our-contact {
+  padding: 120px 0 0;
+
+  &__content-external {
+    bottom: -80px;
+    z-index: 10;
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: 60% auto;
+    column-gap: 180px;
+    padding: 60px;
+    background: $white;
+    box-shadow: $shadow-lg;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: $black;
+  }
+
+  &__address,
+  &__route {
+    line-height: 25px;
+    border-bottom: 1px dashed $black;
+  }
+
+  &__route {
+    cursor: pointer;
+  }
+
+  &__active {
+    font-weight: 700;
+  }
+
+  &__map {
+    line-height: 0;
+  }
+
+  &__contact-external {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__contact-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__contact-title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  &__contact-value {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

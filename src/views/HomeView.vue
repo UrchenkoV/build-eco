@@ -8,6 +8,7 @@
     <HomeCompletedProjects />
     <HomeOurPartners />
     <TheLeaveRequest />
+    <TheContact />
   </main>
 </template>
 
@@ -20,5 +21,6 @@ import HomeSmallArchitecturalForms from '../components/HomeSmallArchitecturalFor
 import HomeCompletedProjects from '../components/HomeCompletedProjects.vue';
 import HomeOurPartners from '../components/HomeOurPartners.vue';
 import TheLeaveRequest from '../components/TheLeaveRequest.vue';
+import TheContact from '../components/TheContact.vue';
   
 </script>
