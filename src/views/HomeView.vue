@@ -9,6 +9,7 @@
     <HomeOurPartners />
     <TheLeaveRequest />
     <TheContact />
+    <TheFooter />
   </main>
 </template>
 
@@ -22,5 +23,6 @@ import HomeCompletedProjects from '../components/HomeCompletedProjects.vue';
 import HomeOurPartners from '../components/HomeOurPartners.vue';
 import TheLeaveRequest from '../components/TheLeaveRequest.vue';
 import TheContact from '../components/TheContact.vue';
+import TheFooter from '../components/TheFooter.vue';
   
 </script>

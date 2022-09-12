@@ -8,10 +8,12 @@ a {
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: $blue-900;
+    color: inherit;
     text-decoration: none;
 
     &-underline {
+      border-bottom: 1px solid;
+      
       &-dashed {
         border-bottom: 1px dashed $blue-900;
       }
